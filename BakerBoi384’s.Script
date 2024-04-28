@@ -1,11 +1,6 @@
 -- Main Script
+-- Hello if your reading this!
 
--- Define loadstring functions to load and execute each script
-local loadstring1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/BakerBo1/StretchedRes1/main/Stretched.Res.BakerBoi384.lua", true))
-local loadstring2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002.lua", true))
-local loadstring3 = loadstring(game:HttpGet("https://pastes.io/raw/lstrrfipqq.lua", true))
-
--- Execute each script
-loadstring1()
-loadstring2()
-loadstring3()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BakerBo1/StretchedRes1/main/Stretched.Res.BakerBoi384.lua", true))
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002.lua", true))
+loadstring(game:HttpGet("https://pastes.io/raw/lstrrfipqq.lua", true))
