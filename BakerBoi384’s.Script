@@ -8,7 +8,7 @@ end
 
 -- Define the second loadstring script as a function
 local function script2()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BakerBo1/StretchedRes1/main/Stretched.Res.BakerBoi384 ", true))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/BakerBo1/StretchedRes1/main/Stretched.Res.BakerBoi384'))()
 end
 
 -- Define the third loadstring script as a function
