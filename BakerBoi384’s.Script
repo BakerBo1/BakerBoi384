@@ -1,22 +1,7 @@
--- Main Script
--- Hello if your reading this!
-
--- Define the first loadstring script as a function
-local function script1()
+local function executeScripts()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+    loadstring(game:HttpGet(‘https://raw.githubusercontent.com/BakerBo1/StretchedRes1/main/Stretched.Res.BakerBoi384’))()
+    loadstring(game:HttpGet('https://pastes.io/raw/lstrrfipqq'))()
 end
 
--- Define the second loadstring script as a function
-local function script2()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/BakerBo1/StretchedRes1/main/Stretched.Res.BakerBoi384'))()
-end
-
--- Define the third loadstring script as a function
-local function script3()
-    loadstring(game:HttpGet('https://pastes.io/raw/lstrrfipqq'))();
-end
-
--- Call each function to execute the scripts
-script1()
-script2()
-script3()
+executeScripts()
