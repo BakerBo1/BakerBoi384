@@ -1,6 +1,20 @@
 -- Main Script
 -- Hello if your reading this!
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BakerBo1/StretchedRes1/main/Stretched.Res.BakerBoi384.lua", true))
-loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002.lua", true))
-loadstring(game:HttpGet("https://pastes.io/raw/lstrrfipqq.lua", true))
+-- Load the first script
+local script1 = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/BakerBo1/StretchedRes1/main/Stretched.Res.BakerBoi384.lua", true))
+]]
+
+-- Load the second script
+local script2 = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002.lua", true))
+]]
+
+-- Load the third script
+local script3 = [[loadstring(game:HttpGet("https://pastes.io/raw/lstrrfipqq.lua", true))
+]]
+
+-- Concatenate the scripts
+local combinedScript = script1 .. script2 .. script3
+
+-- Load and execute the combined script
+loadstring(combinedScript)()
