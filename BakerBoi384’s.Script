@@ -1,5 +1,10 @@
+-- Combined Lua Script
+
+-- Script 1
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BakerBo1/StretchedRes1/main/Stretched.Res.BakerBoi384 ", true))()
 
+-- Script 2
 loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 
+-- Script 3
 loadstring(game:HttpGet('https://pastes.io/raw/lstrrfipqq'))();
