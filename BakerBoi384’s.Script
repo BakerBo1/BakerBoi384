@@ -1,10 +1,18 @@
--- Combined Lua Script
+-- Main Script
 
--- Script 1
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BakerBo1/StretchedRes1/main/Stretched.Res.BakerBoi384 ", true))()
+-- Define paths to the Lua script files
+local script1Path = "https://raw.githubusercontent.com/BakerBo1/StretchedRes1/main/Stretched.Res.BakerBoi384.lua"
+local script2Path = "https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002.lua"
+local script3Path = "https://pastes.io/raw/lstrrfipqq.lua"
 
--- Script 2
-loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+-- Require and execute Script 1
+local script1 = require(script1Path)
+script1.execute()
 
--- Script 3
-loadstring(game:HttpGet('https://pastes.io/raw/lstrrfipqq'))();
+-- Require and execute Script 2
+local script2 = require(script2Path)
+script2.execute()
+
+-- Require and execute Script 3
+local script3 = require(script3Path)
+script3.execute()
